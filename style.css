@@ -36,7 +36,7 @@
   align-items: center;
   margin: auto 20px;
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .menu {
     display: none;
   }
@@ -44,7 +44,7 @@
 .nuevo-menu {
   display: none;
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .nuevo-menu {
     min-width: 460px;
     display: grid;
@@ -54,7 +54,7 @@
 }
 .texto-de-nav {
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .texto-de-nav {
     font-family: "Open Sans", sans-serif;
     font-size: 22px;
@@ -66,7 +66,7 @@
   align-items: center;
   margin: 0 10px;
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .logo {
     width: 135px;
     height: 110px;
@@ -86,7 +86,7 @@
   justify-content: center;
   align-items: center;
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .section-uno {
     height: 420px;
     padding: 0 70px;
@@ -102,7 +102,7 @@
   font-family: "Open Sans", sans-serif;
   font-size: 48px;
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .titulo {
     margin: 0 0 175px;
   }
@@ -111,7 +111,7 @@
   width: 318px;
   height: 305px;
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .imagen {
     margin: 25px 0 0;
     width: 435px;
@@ -135,7 +135,7 @@
   align-items: center;
   height: 100%;
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .contenedor {
     height: 540px;
     width: 100%;
@@ -152,7 +152,7 @@
   text-align: center;
   margin: 0 0 40px;
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .subtitulo {
     text-align: justify;
   }
@@ -164,7 +164,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .parrafo {
     min-width: 750px;
     height: 170px;
@@ -172,7 +172,7 @@
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .icono {
     margin: 0 80px 0 0;
     width: 210px;
@@ -200,7 +200,7 @@
   flex-direction: column;
   margin: 0 auto;
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .contenedor-mis-servicios {
     height: 550px;
     width: 100%;
@@ -210,7 +210,7 @@
 }
 .datos-del-contenedor {
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .datos-del-contenedor {
     height: 460px;
     display: grid;
@@ -223,7 +223,7 @@
   font-family: "Open Sans", sans-serif;
   font-size: 32px;
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .segundo-subtitulo {
     width: 400px;
     height: 65px;
@@ -250,7 +250,7 @@
   flex-direction: column;
   justify-content: center;
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .colum {
     display: flex;
     flex-direction: column;
@@ -275,7 +275,7 @@
 }
 .comun {
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .comun {
     max-width: 265px;
     height: 120px;
@@ -287,7 +287,7 @@
   height: 700px;
   padding: 60px 0;
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .section-cuatro {
     height: 660px;
   }
@@ -298,7 +298,7 @@
   height: 600px;
   margin: 0 auto;
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .contenedor-dos {
     min-width: 820px;
     height: 495px;
@@ -314,8 +314,8 @@
   font-size: 32px;
   text-align: center;
 }
-@media(min-width: 700px){
-  .tercer-subtitulo{
+@media (min-width: 1000px) {
+  .tercer-subtitulo {
     font-size: 42px;
   }
 }
@@ -324,7 +324,7 @@
   display: grid;
   gap: 27px;
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .form {
     width: 385px;
   }
@@ -347,7 +347,7 @@
 .mensaje {
   padding: 105px;
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .mensaje {
     padding: 70px;
   }
@@ -372,10 +372,11 @@
   padding: 55px 0;
   background-color: rgba(219, 219, 219, 1);
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .section-cinco {
     height: 350px;
-    background-image: url(./puntitos.png);
+    display: flex;
+    align-items: center;
   }
 }
 .fecha {
@@ -389,15 +390,16 @@
   height: 335px;
   margin: 0 0 0 16px;
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .ultimo-contenedor {
-    height: 260px;
-    width: 90%;
-    margin: 0 auto;
+    height: 340px;
+    width: 99%;
+    padding: 0 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-image: url(./puntitos.svg);
   }
 }
 .redes-sociales {
