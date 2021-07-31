@@ -21,7 +21,7 @@
   justify-content: space-between;
   width: 100%;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .nav {
     height: 110px;
     margin: 0 0 90px 0;
@@ -44,7 +44,7 @@
 .nuevo-menu {
   display: none;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .nuevo-menu {
     min-width: 460px;
     display: grid;
@@ -54,7 +54,7 @@
 }
 .texto-de-nav {
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .texto-de-nav {
     font-family: "Open Sans", sans-serif;
     font-size: 22px;
@@ -66,7 +66,7 @@
   align-items: center;
   margin: 0 10px;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .logo {
     width: 135px;
     height: 110px;
@@ -86,7 +86,7 @@
   justify-content: center;
   align-items: center;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .section-uno {
     height: 420px;
     padding: 0 70px;
@@ -102,7 +102,7 @@
   font-family: "Open Sans", sans-serif;
   font-size: 48px;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .titulo {
     margin: 0 0 175px;
   }
@@ -111,7 +111,7 @@
   width: 318px;
   height: 305px;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .imagen {
     margin: 25px 0 0;
     width: 435px;
@@ -152,7 +152,7 @@
   text-align: center;
   margin: 0 0 40px;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .subtitulo {
     text-align: justify;
   }
@@ -164,7 +164,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .parrafo {
     min-width: 750px;
     height: 170px;
@@ -172,7 +172,7 @@
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .icono {
     margin: 0 80px 0 0;
     width: 210px;
@@ -188,7 +188,7 @@
   justify-content: center;
   align-items: center;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .section-tres {
     height: 605px;
   }
@@ -200,7 +200,7 @@
   flex-direction: column;
   margin: 0 auto;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .contenedor-mis-servicios {
     height: 550px;
     width: 100%;
@@ -210,7 +210,7 @@
 }
 .datos-del-contenedor {
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .datos-del-contenedor {
     height: 460px;
     display: grid;
@@ -223,7 +223,7 @@
   font-family: "Open Sans", sans-serif;
   font-size: 32px;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .segundo-subtitulo {
     width: 400px;
     height: 65px;
@@ -250,7 +250,7 @@
   flex-direction: column;
   justify-content: center;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .colum {
     display: flex;
     flex-direction: column;
@@ -275,7 +275,7 @@
 }
 .comun {
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .comun {
     max-width: 265px;
     height: 120px;
@@ -287,7 +287,7 @@
   height: 700px;
   padding: 60px 0;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .section-cuatro {
     height: 660px;
   }
@@ -298,7 +298,7 @@
   height: 600px;
   margin: 0 auto;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .contenedor-dos {
     min-width: 820px;
     height: 495px;
@@ -314,7 +314,7 @@
   font-size: 32px;
   text-align: center;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .tercer-subtitulo {
     font-size: 42px;
   }
@@ -324,7 +324,7 @@
   display: grid;
   gap: 27px;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .form {
     width: 385px;
   }
@@ -347,7 +347,7 @@
 .mensaje {
   padding: 105px;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .mensaje {
     padding: 70px;
   }
@@ -361,7 +361,7 @@
   font-size: 18px;
   font-family: "Franklin Gothic";
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .button {
     width: 385px;
   }
@@ -372,7 +372,7 @@
   padding: 55px 0;
   background-color: rgba(219, 219, 219, 1);
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .section-cinco {
     height: 350px;
     display: flex;
@@ -390,7 +390,7 @@
   height: 335px;
   margin: 0 0 0 16px;
 }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .ultimo-contenedor {
     height: 340px;
     width: 99%;
@@ -399,7 +399,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-image: url(./puntitos.png);
+    background-image: url(puntitos.png);
   }
 }
 .redes-sociales {
